@@ -42,3 +42,13 @@ hashmap.c:42:6: note: declared here
 cc1: all warnings being treated as errors
 Compilation failed
 c8782c3
+Tue 23 Apr 2024 11:09:40 PM UTC: 
+ hashmap.c | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+In file included from test.c:4:
+hashmap.c: In function ‘insertMap’:
+hashmap.c:47:1: error: expected expression before ‘}’ token
+   47 | }
+      | ^
+Compilation failed
+5d8284c
