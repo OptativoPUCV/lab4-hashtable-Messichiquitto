@@ -28,3 +28,17 @@ Tue 23 Apr 2024 11:04:56 PM UTC:
  tests:  1|5
 total_score: 10/70
 4fcaf47
+Tue 23 Apr 2024 11:08:25 PM UTC: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+hashmap.c: In function ‘insertMap’:
+hashmap.c:43:10: error: ‘return’ with a value, in function returning void [-Werror=return-type]
+   43 |   return NULL;
+      |          ^~~~
+hashmap.c:42:6: note: declared here
+   42 | void insertMap(HashMap * map, char * key, void * value) {
+      |      ^~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+c8782c3
